@@ -1,0 +1,64 @@
+.logo {
+  font-weight: 700;
+  font-size: 20px;
+  color: #783fed;
+  margin-bottom: 1.5rem;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-right: 2rem;
+  /* border: 2px solid black; */
+  gap: 7px;
+}
+.sidebarHead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* .searchBarContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.searchBar {
+  width: 251px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 0 15px;
+  font-size: 16px;
+  outline: none;
+  transition: box-shadow 0.3s ease;
+} */
+
+.formControl {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid #a4a4a4;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  height: 20px;
+  width: 400x;
+  margin-top: 1.5rem;
+}
+
+.searchIcon {
+  font-size: 25px;
+  cursor: pointer;
+  color: #a4a4a4;
+}
+
+.input {
+  min-width: 12rem;
+  outline: none;
+  border: none;
+}
+
+.input::placeholder {
+  color: #a4a4a4;
+}

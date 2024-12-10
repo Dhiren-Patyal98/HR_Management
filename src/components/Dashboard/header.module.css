@@ -1,0 +1,28 @@
+.contentSideHeader {
+  width: 90%;
+  height: 50%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.notificationSide {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+  gap: 0.5rem;
+}
+.contentDynamic {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #121212;
+}
+.profile {
+  height: 32px;
+  width: 32px;
+  border-radius: 100%;
+}

@@ -1,0 +1,112 @@
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+.dialog {
+  position: fixed;
+  top: 10%;
+  left: 15%;
+  border: none;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  border-radius: 20px;
+  z-index: 1000;
+  padding: 0px;
+  overflow: hidden;
+  /* border: 2px solid #e5e5e5; */
+  height: 509px;
+  width: 900px;
+}
+
+/* .dialogContent {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+  border: 2px solid black;
+} */
+
+.closeButton {
+  font-size: 20px;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 0.5rem;
+
+  border-radius: 5px;
+}
+.banner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 10%;
+  width: 100%;
+  background: linear-gradient(to bottom, #783fed, #442487);
+  color: white;
+  margin-bottom: 1.5rem;
+  /* border: 2px solid red; */
+}
+.form {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.inputField {
+  width: 50%;
+  margin-right: 2rem;
+}
+.checkbox {
+  width: 16px;
+  height: 16px;
+}
+
+.customFileLabel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 46px;
+  width: 95%;
+  border: 1px solid #442487;
+  border-radius: 16px;
+  padding: 0 16px;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  margin-top: 8px;
+  background-color: white;
+}
+
+.hiddenFileInput {
+  display: none;
+}
+
+.errorText {
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+.inputField input::placeholder {
+  color: black;
+}
